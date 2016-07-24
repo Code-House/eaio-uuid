@@ -5,17 +5,17 @@
   <parent>
     <groupId>org.sonatype.oss</groupId>
     <artifactId>oss-parent</artifactId>
-    <version>5</version>
+    <version>7</version>
   </parent>
 
-  <groupId>com.github.stephenc.eaio-uuid</groupId>
+  <groupId>org.code-house.eaio-uuid</groupId>
   <artifactId>uuid</artifactId>
   <version>3.4.1-SNAPSHOT</version>
   <packaging>bundle</packaging>
 
   <name>UUID</name>
   <description>An implementation of the UUIDs and GUIDs specification in Java. UUIDs are 128 bit long identifiers that are guaranteed to be unique.</description>
-  <url>http://stephenc.github.com/eaio-uuid</url>
+  <url>http://code-house.github.com/eaio-uuid</url>
   <inceptionYear>2003</inceptionYear>
   <licenses>
     <license>
@@ -29,6 +29,13 @@
     <developer>
       <id>stephenc</id>
       <name>Stephen Connolly</name>
+      <roles>
+        <role>packager</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>splatch</id>
+      <name>Łukasz Dywicki</name>
       <roles>
         <role>packager</role>
       </roles>
@@ -51,19 +58,19 @@
   </prerequisites>
 
   <scm>
-    <connection>scm:git:git://github.com/stephenc/eaio-uuid.git</connection>
-    <developerConnection>scm:git:git@github.com:stephenc/eaio-uuid.git</developerConnection>
-    <url>http://github.com/stephenc/eaio-uuid/tree/master/</url>
+    <connection>scm:git:git://github.com/code-house/eaio-uuid.git</connection>
+    <developerConnection>scm:git:git@github.com:code-house/eaio-uuid.git</developerConnection>
+    <url>http://github.com/code-house/eaio-uuid/tree/master/</url>
     <tag>HEAD</tag>
   </scm>
   <issueManagement>
     <system>github</system>
-    <url>http://github.com/stephenc/eaio-uuid/issues</url>
+    <url>http://github.com/code-house/eaio-uuid/issues</url>
   </issueManagement>
   <distributionManagement>
     <site>
       <id>github.com</id>
-      <url>gitsite:git@github.com/stephenc/eaio-uuid.git</url>
+      <url>gitsite:git@github.com/code-house/eaio-uuid.git</url>
     </site>
   </distributionManagement>
 
