@@ -10,7 +10,7 @@
 
   <groupId>org.code-house.eaio-uuid</groupId>
   <artifactId>uuid</artifactId>
-  <version>3.4.1</version>
+  <version>3.4.2-SNAPSHOT</version>
   <packaging>bundle</packaging>
 
   <name>UUID</name>
@@ -61,7 +61,7 @@
     <connection>scm:git:git://github.com/code-house/eaio-uuid.git</connection>
     <developerConnection>scm:git:git@github.com:code-house/eaio-uuid.git</developerConnection>
     <url>http://github.com/code-house/eaio-uuid/tree/master/</url>
-    <tag>uuid-3.4.1</tag>
+    <tag>HEAD</tag>
   </scm>
   <issueManagement>
     <system>github</system>
